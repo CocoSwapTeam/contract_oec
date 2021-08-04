@@ -342,7 +342,7 @@ interface IMiner {
 contract CocoMix is Ownable {
     using SafeMath for uint256;
 
-    IWETH wETH = IWETH(address(0x5545153CCFcA01fbd7Dd11C0b23ba694D9509A6F));
+    IWETH wETH = IWETH(address(0x8F8526dbfd6E38E3D8307702cA8469Bae6C56C15));
     event Swap(address user, address token, uint256 amount, uint256 fee);
 
     address trader = address(0);
